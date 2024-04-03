@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <h3>Arif Hussain</h3>
     <p>Hunza pakistan</p>
     {addsallary()}
+    <Footer/>
     </>
   );
 }

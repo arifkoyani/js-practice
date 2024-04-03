@@ -31,3 +31,10 @@ nav ul{
   gap: 20px;
   font-size: 12px;
 }
+footer{
+  background-color: rgb(254, 170, 0);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
