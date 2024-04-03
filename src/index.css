@@ -36,5 +36,25 @@ footer{
   width: 100vw;
   display: flex;
   justify-content: center;
-  padding: 5px;
+}
+.slide{
+  height: 40vh;
+  width: 100px;
+  border-radius: 2px;
+  background-color: orange;
+  margin: 120px 0px;
+  animation-name: slide-animation;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes slide-animation {
+  0%{
+    transform: translateX(100vw);
+  }
+  100%{
+    transform: translateX(0vw);
+  }
+  
 }
