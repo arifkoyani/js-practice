@@ -1,10 +1,10 @@
 import React from "react";
-let Navbar=()=>{
+let Navbar=(props)=>{
     return(
         <>
         <nav> 
             <ul className="justify-center items-center">
-                <li>Home</li>
+                <li onClick={()=>{props.salary()}}>Home</li>
                 <li>Contact</li>
                 <li>FAQS</li>
                 <li>Cateloges</li>
