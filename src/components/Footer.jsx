@@ -4,6 +4,7 @@ let Footer=()=>{
         <>
         <footer>
             <h2>This is My Footer  </h2>
+            <h2>This is My Footer  </h2>
         </footer>
         </>
     )
