@@ -4,7 +4,7 @@ let Navbar=(props)=>{
         <>
         <nav> 
             <ul className="justify-center items-center">
-                <li onClick={()=>{props.salary()}}>Home</li>
+                <li onClick={()=>{props.salary()}} className="cursor-pointer">Home</li>
                 <li>Contact</li>
                 <li>FAQS</li>
                 <li>Cateloges</li>
