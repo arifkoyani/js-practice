@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Navbar salary={addsallary}/>
-      <h3>Arif Hussain</h3>
+      <h3>Arif ali Hussain</h3>
       <p>Hunza pakistan</p>
       <Bodyinimate/>
       <Footer/>
